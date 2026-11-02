@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-	<h1> My POrtfolio</h1>
 
-	<nav>
-		<uI role="list">
-			<li role="itemlist" href="#home">Home</li>
-			<li role="itemlist" href="#about">About</li>
-			<li role="itemlist" href="#contact">Contact</li>
-		</uI>
-	</nav>
-	<img 
+    <h1 role="heading">My Portfolio</h1>
+
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem">
+                <a href="#home">Home</a>
+            </li>
+
+            <li role="listitem">
+                <a href="#about">About</a>
+            </li>
+
+            <li role="listitem">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <img
+        role="img"
         src="profile.jpg"
-        alt="My profile picture">
-	 <p>
+        alt="My profile picture"
+    >
+
+    <p>
         Hello! I am a software developer interested in
         web development and programming.
     </p>
@@ -33,6 +43,7 @@
         <li role="listitem">React.js</li>
     </ul>
 
-</body>
+    <script src="./script.js"></script>
 
+</body>
 </html>
